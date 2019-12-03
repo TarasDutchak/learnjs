@@ -1,7 +1,7 @@
 "use strict";
 
-let a = 5;
-console.log(a);
+// let a = 5;
+// console.log(a);
 
 // var string = "Some text";
 // var number = 24;
@@ -20,7 +20,7 @@ console.log(a);
 
 // console.log(peson["name"]);
 
-let arr = ['plum.png', 'orange.jpg', 'apple.bmp'];
+// let arr = ['plum.png', 'orange.jpg', 'apple.bmp'];
 
 // console.log(arr[0]);
 
@@ -49,7 +49,64 @@ let arr = ['plum.png', 'orange.jpg', 'apple.bmp'];
 // console.log(5 % 2);
 // console.log("2" === 2);
 
-let isChecked = false,
-    isClose = false;
+// let isChecked = false,
+//     isClose = false;
 
-console.log(isChecked || !isClose);
+// console.log(isChecked || !isClose);
+
+
+// УСЛОВИЯ==================================================================
+
+
+// let num = 50;
+
+// if (num < 49) {
+//     console.log("false");
+// } else if (num > 100) {
+//     console.log("too big");
+// } else {
+//     console.log("true");
+// };
+
+// (num == 50) ? console.log('true') : console.log('false');
+
+// switch (num) {
+//     case num < 49:
+//         console.log("false");
+//         break;
+//     case num > 100:
+//         console.log("to big");
+//         break;
+//     case num > 80:
+//         console.log("to big, too");
+//         break;
+//     case 50:
+//         console.log("true");
+//         break;
+//     default:
+//         console.log("all is false");
+//         break;
+// }
+
+// ЦИКЛЫ========================================================================
+let num = 50;
+
+// while (num < 55) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+
+// while (num < 55);
+
+// for (let i = 1; i < 8; i++) {
+//     if (i == 6) {
+//         // break;
+//         continue;
+//     }
+//     console.log(i);
+// }
